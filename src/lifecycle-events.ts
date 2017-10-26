@@ -1,4 +1,4 @@
-import { EventSourceDecorator, EventSource } from "@angular-rxjs-extensions/core";
+import { EventSourceDecorator, EventSource } from "angular-rxjs-extensions";
 
 export type IonicLifecycleType = keyof {
     ionViewDidLoad,
