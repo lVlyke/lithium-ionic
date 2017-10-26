@@ -1,5 +1,5 @@
 {
-  "name": "@angular-rxjs-extensions/ionic",
+  "name": "angular-rxjs-extensions-ionic",
   "version": "1.0.0-beta.0",
   "description": "Ionic extensions for @angular-rxjs-extensions.",
   "main": "index.js",
