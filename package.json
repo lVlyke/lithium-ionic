@@ -1,16 +1,17 @@
 {
   "name": "angular-rxjs-extensions-ionic",
-  "version": "1.0.0-beta.0",
-  "description": "Ionic extensions for @angular-rxjs-extensions.",
+  "version": "1.0.0-beta.2",
+  "description": "Ionic extensions for angular-rxjs-extensions.",
   "main": "index.js",
   "author": "Mychal Thompson <mychal.r.thompson@gmail.com>",
+  "repository": "https://github.com/lVlyke/angular-rxjs-extensions-ionic",
   "license": "MIT",
   "scripts": {
     "build:js": "rimraf ./dist && ngc && cp ./package.json ./dist/package.json"
   },
   "peerDependencies": {
-    "@angular-rxjs-extensions/core": "1.0.0-rc.0",
     "@angular/core": "4.x.x",
+    "angular-rxjs-extensions": "^1.0.0-rc.0",
     "rxjs": "5.x.x"
   },
   "devDependencies": {
@@ -18,12 +19,10 @@
     "@angular/compiler-cli": "^4.4.6",
     "@angular/core": "4.x.x",
     "@types/reflect-metadata": "^0.0.5",
+    "angular-rxjs-extensions": "^1.0.0-rc.0",
     "rimraf": "^2.6.2",
     "rxjs": "5.5.x",
     "typescript": "^2.3.4",
     "zone.js": "^0.8.4"
-  },
-  "dependencies": {
-    "@angular-rxjs-extensions/core": "1.0.0-rc.0"
   }
 }
