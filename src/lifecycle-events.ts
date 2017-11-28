@@ -1,4 +1,4 @@
-import { EventSourceDecorator, EventSource } from "angular-rxjs-extensions";
+import { EventSource } from "angular-rxjs-extensions";
 
 export type IonicLifecycleType = keyof {
     ionViewDidLoad,
@@ -11,7 +11,7 @@ export type IonicLifecycleType = keyof {
 
 export namespace IonicLifecycleType {
 
-    export type DecoratorFactory = () => EventSourceDecorator;
+    export type DecoratorFactory = () => PropertyDecorator;
 
     export const ViewDidLoad: IonicLifecycleType = "ionViewDidLoad";
     export const ViewWillEnter: IonicLifecycleType = "ionViewWillEnter";
@@ -31,7 +31,7 @@ export namespace IonicLifecycleType {
 
     /** @PropertyDecoratorMetaFactory */
     export function DecoratorFactory(type: IonicLifecycleType): DecoratorFactory {
-        return function (): EventSourceDecorator {
+        return function (): PropertyDecorator {
             return EventSource(type);
         };
     }

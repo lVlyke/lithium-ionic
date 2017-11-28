@@ -32,9 +32,9 @@
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/@types/reflect-metadata/-/reflect-metadata-0.0.5.tgz#9c042bfa9803d577aad4f57dfbca4b7cae4286fe"
 
-angular-rxjs-extensions@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/angular-rxjs-extensions/-/angular-rxjs-extensions-1.0.0.tgz#291f4960edef58490dfff7c906b6943f5d803170"
+angular-rxjs-extensions@^1.0.1:
+  version "1.0.1"
+  resolved "http://192.168.29.254:4873/angular-rxjs-extensions/-/angular-rxjs-extensions-1.0.1.tgz#747ce68c521cf1fe9a7901dd690257d0faf0c4a5"
 
 balanced-match@^1.0.0:
   version "1.0.0"

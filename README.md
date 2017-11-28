@@ -2,6 +2,14 @@
 
 Ionic extensions for [angular-rxjs-extensions](https://github.com/lVlyke/angular-rxjs-extensions).
 
+## Installation
+
+This project depends on [angular-rxjs-extensions](https://github.com/lVlyke/angular-rxjs-extensions). Both can be installed via **npm** using the following command:
+
+```bash
+npm install angular-rxjs-extensions angular-rxjs-extensions-ionic
+```
+
 ## Example
 
 ```ts
