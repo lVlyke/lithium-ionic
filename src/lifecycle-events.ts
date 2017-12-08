@@ -1,4 +1,4 @@
-import { EventSource } from "angular-rxjs-extensions";
+import { EventSource } from "@lithiumjs/angular";
 
 export type IonicLifecycleType = keyof {
     ionViewDidLoad,
