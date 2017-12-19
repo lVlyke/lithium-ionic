@@ -1,4 +1,4 @@
-import { EventSource } from "@lithiumjs/angular";
+import { EventSource, EventMetadata } from "@lithiumjs/angular";
 
 export type IonicLifecycleType = keyof {
     ionViewDidLoad,
@@ -11,7 +11,7 @@ export type IonicLifecycleType = keyof {
 
 export namespace IonicLifecycleType {
 
-    export type DecoratorFactory = () => PropertyDecorator;
+    export type DecoratorFactory = (options?: EventMetadata.ConfigOptions, ...methodDecorators: MethodDecorator[]) => PropertyDecorator;
 
     export const ViewDidLoad: IonicLifecycleType = "ionViewDidLoad";
     export const ViewWillEnter: IonicLifecycleType = "ionViewWillEnter";
@@ -30,9 +30,9 @@ export namespace IonicLifecycleType {
     ];
 
     /** @PropertyDecoratorMetaFactory */
-    export function DecoratorFactory(type: IonicLifecycleType): DecoratorFactory {
-        return function (): PropertyDecorator {
-            return EventSource(type);
+    export function DecoratorFactory(eventType: IonicLifecycleType): DecoratorFactory {
+        return function (options?: EventMetadata.ConfigOptions, ...methodDecorators: MethodDecorator[]): PropertyDecorator {
+            return EventSource(Object.assign({ eventType }, options), ...methodDecorators);
         };
     }
 }
