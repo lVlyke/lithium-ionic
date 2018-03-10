@@ -1,6 +1,6 @@
 {
   "name": "@lithiumjs/ionic",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Reactive Ionic lifecycle decorators for @lithiumjs/angular.",
   "main": "index.js",
   "author": "Mychal Thompson <mychal.r.thompson@gmail.com>",

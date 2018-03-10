@@ -4,7 +4,7 @@ Reactive Ionic navigation lifecycle decorators for [@lithiumjs/angular](https://
 
 ## Installation
 
-Lithium for Ionic depends on [Lithium for Angular](https://github.com/lVlyke/lithium-angular). Both can be installed via **npm** using the following command:
+Lithium for Ionic depends on [Lithium for Angular](https://github.com/lVlyke/lithium-angular). Both can be installed [via **npm**](https://www.npmjs.com/package/@lithiumjs/ionic) using the following command:
 
 ```bash
 npm install @lithiumjs/angular @lithiumjs/ionic
