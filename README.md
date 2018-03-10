@@ -34,7 +34,7 @@ These decorators create observables for all Ionic navigation lifecycle events:
 #### ```ViewDidLoad```
 
 ```ts
-function ViewDidLoad(options?: EventMetadata.ConfigOptions, ...methodDecorators: MethodDecorator[]): PropertyDecorator
+function ViewDidLoad(options?: EventSource.DecoratorOptions, ...methodDecorators: MethodDecorator[]): PropertyDecorator
 ```
 
 See [**```EventSource```**](https://github.com/lVlyke/lithium-angular#eventsource-1).
@@ -42,7 +42,7 @@ See [**```EventSource```**](https://github.com/lVlyke/lithium-angular#eventsourc
 #### ```ViewWillEnter```
 
 ```ts
-function ViewWillEnter(options?: EventMetadata.ConfigOptions, ...methodDecorators: MethodDecorator[]): PropertyDecorator
+function ViewWillEnter(options?: EventSource.DecoratorOptions, ...methodDecorators: MethodDecorator[]): PropertyDecorator
 ```
 
 See [**```EventSource```**](https://github.com/lVlyke/lithium-angular#eventsource-1).
@@ -50,7 +50,7 @@ See [**```EventSource```**](https://github.com/lVlyke/lithium-angular#eventsourc
 #### ```ViewDidEnter```
 
 ```ts
-function ViewDidEnter(options?: EventMetadata.ConfigOptions, ...methodDecorators: MethodDecorator[]): PropertyDecorator
+function ViewDidEnter(options?: EventSource.DecoratorOptions, ...methodDecorators: MethodDecorator[]): PropertyDecorator
 ```
 
 See [**```EventSource```**](https://github.com/lVlyke/lithium-angular#eventsource-1).
@@ -58,7 +58,7 @@ See [**```EventSource```**](https://github.com/lVlyke/lithium-angular#eventsourc
 #### ```ViewWillLeave```
 
 ```ts
-function ViewWillLeave(options?: EventMetadata.ConfigOptions, ...methodDecorators: MethodDecorator[]): PropertyDecorator
+function ViewWillLeave(options?: EventSource.DecoratorOptions, ...methodDecorators: MethodDecorator[]): PropertyDecorator
 ```
 
 See [**```EventSource```**](https://github.com/lVlyke/lithium-angular#eventsource-1).
@@ -66,7 +66,7 @@ See [**```EventSource```**](https://github.com/lVlyke/lithium-angular#eventsourc
 #### ```ViewDidLeave```
 
 ```ts
-function ViewDidLeave(options?: EventMetadata.ConfigOptions, ...methodDecorators: MethodDecorator[]): PropertyDecorator
+function ViewDidLeave(options?: EventSource.DecoratorOptions, ...methodDecorators: MethodDecorator[]): PropertyDecorator
 ```
 
 See [**```EventSource```**](https://github.com/lVlyke/lithium-angular#eventsource-1).
@@ -74,7 +74,7 @@ See [**```EventSource```**](https://github.com/lVlyke/lithium-angular#eventsourc
 #### ```ViewWillUnload```
 
 ```ts
-function ViewWillUnload(options?: EventMetadata.ConfigOptions, ...methodDecorators: MethodDecorator[]): PropertyDecorator
+function ViewWillUnload(options?: EventSource.DecoratorOptions, ...methodDecorators: MethodDecorator[]): PropertyDecorator
 ```
 
 See [**```EventSource```**](https://github.com/lVlyke/lithium-angular#eventsource-1).
