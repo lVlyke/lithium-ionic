@@ -32,6 +32,7 @@
         "rewriteTsConfig": false
     },
     "angularCompilerOptions": {
-        "genDir": "dist"
+        "genDir": "dist",
+        "skipTemplateCodegen": true
     }
 }

@@ -1,6 +1,6 @@
-# Lithium for Ionic
+# Lithium for Ionic (@lithiumjs/ionic)
 
-Reactive Ionic navigation lifecycle decorators for [@lithiumjs/angular](https://github.com/lVlyke/lithium-angular).
+Reactive Ionic navigation lifecycle extensions for [@lithiumjs/angular](https://github.com/lVlyke/lithium-angular).
 
 ## Installation
 
@@ -14,7 +14,6 @@ npm install @lithiumjs/angular @lithiumjs/ionic
 
 ```ts
 @Component({...})
-@Reactive()
 class IonicPage {
 
     @ViewDidEnter() private viewDidEnter$: Observable<void>;
