@@ -1,6 +1,6 @@
 {
   "name": "@lithiumjs/ionic",
-  "version": "2.0.0-rc.0",
+  "version": "2.0.0",
   "description": "Reactive Ionic lifecycle extensions for @lithiumjs/angular.",
   "main": "index.js",
   "author": "Mychal Thompson <mychal.r.thompson@gmail.com>",
@@ -24,13 +24,13 @@
     "build:js": "node ./scripts/build.js"
   },
   "peerDependencies": {
-    "@lithiumjs/angular": "^2.0.0-rc.0"
+    "@lithiumjs/angular": "^2.0.0"
   },
   "devDependencies": {
-    "@angular/compiler": "7.0.0-beta.4",
-    "@angular/compiler-cli": "7.0.0-beta.4",
+    "@angular/compiler": "7.0.0-beta.5",
+    "@angular/compiler-cli": "7.0.0-beta.5",
     "@angular/core": "7.0.0-beta.4",
-    "@lithiumjs/angular": "^2.0.0-rc.0",
+    "@lithiumjs/angular": "^2.0.0",
     "@types/reflect-metadata": "^0.0.5",
     "fs-extra": "^5.0.0",
     "rimraf": "^2.6.2",

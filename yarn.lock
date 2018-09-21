@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@angular/compiler-cli@7.0.0-beta.4":
-  version "7.0.0-beta.4"
-  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-7.0.0-beta.4.tgz#43ca2c585c903f5c219b7903b2ceabd3d4fb3d48"
+"@angular/compiler-cli@7.0.0-beta.5":
+  version "7.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-7.0.0-beta.5.tgz#2c12cf4be3de8a5b723bbb0f34852f9e04ad5da2"
   dependencies:
     chokidar "^1.4.2"
     convert-source-map "^1.5.1"
@@ -13,9 +13,9 @@
     reflect-metadata "^0.1.2"
     source-map "^0.6.1"
 
-"@angular/compiler@7.0.0-beta.4":
-  version "7.0.0-beta.4"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-7.0.0-beta.4.tgz#f61a1e15db3e895ea6e8be98a01b261924b87bd7"
+"@angular/compiler@7.0.0-beta.5":
+  version "7.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-7.0.0-beta.5.tgz#33adfdd15f20dfad80a6cb1cdf6a0999e0d46706"
   dependencies:
     tslib "^1.9.0"
 
@@ -25,9 +25,9 @@
   dependencies:
     tslib "^1.9.0"
 
-"@lithiumjs/angular@^2.0.0-rc.0":
-  version "2.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/@lithiumjs/angular/-/angular-2.0.0-rc.0.tgz#e7759c42900c2095cac834bd9cb2062e46468529"
+"@lithiumjs/angular@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@lithiumjs/angular/-/angular-2.0.0.tgz#81de67bb8813bbf4870371e71a305d90f250fdd2"
 
 "@types/reflect-metadata@^0.0.5":
   version "0.0.5"
